@@ -1,2 +1,2 @@
 # JavaStudyGroup
-Source for Java study group demo programs
+Source codes for Java study group demo programs
