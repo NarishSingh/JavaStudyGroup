@@ -9,6 +9,7 @@ public class stringstuff {
         char c = 'a'; //primitive type
 
         String name; //reference type -> array of char
+        int age; //primitive type
         Scanner in = new Scanner(System.in); //we will use this to get data from the user
 
         //print something to the console
@@ -22,9 +23,20 @@ public class stringstuff {
 
         //control flow -> if-else statement
         if (name.isBlank()) {
+            //stringVar.isBlank() will check if the input is blank, or has only spaces, which is not useful to us
             System.out.println("I hate you");
         } else {
             System.out.println("Hello " + name);
+        }
+
+        //get their age
+        System.out.print("Tell me your age: ");
+        age = in.nextInt();
+
+        if (age > 110) {
+            System.out.println("You are lying");
+        } else {
+            System.out.println("You are " + age + " years old.");
         }
     }
 
