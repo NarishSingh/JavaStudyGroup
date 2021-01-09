@@ -6,7 +6,7 @@ public class stringstuff {
 
     public static void main(String[] args) {
         int x = 10; //primitive type
-        char c = 'a'; //primitive type
+//        char c = 'a'; //primitive type
 
         String name; //reference type -> array of char
         int age; //primitive type
@@ -37,6 +37,12 @@ public class stringstuff {
             System.out.println("You are lying");
         } else {
             System.out.println("You are " + age + " years old.");
+        }
+        
+        //string is an array of characters
+        char[] nameLetters = name.toCharArray();
+        for (char c : nameLetters) {
+            System.out.println(c);
         }
     }
 
