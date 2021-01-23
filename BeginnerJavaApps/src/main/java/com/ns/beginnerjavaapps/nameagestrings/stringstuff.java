@@ -38,7 +38,7 @@ public class stringstuff {
         } else {
             System.out.println("You are " + age + " years old.");
         }
-        
+
         //string is an array of characters
         char[] nameLetters = name.toCharArray();
         for (char c : nameLetters) {
