@@ -101,7 +101,7 @@ public class dicesim {
         //get a number from the user -> number of rolls of the dice
 //        System.out.print("Please enter number of dice to roll: ");
 //        numOfDice = input.nextInt();
-        System.out.print("Please enter the roll amount: ");
+        System.out.print("Please enter the amount of times to roll: ");
         numOfRolls = input.nextInt();
         int[] rolls = new int[numOfRolls]; //exactly fits the number of rolls to be done
 
