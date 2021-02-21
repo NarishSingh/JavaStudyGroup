@@ -1,4 +1,4 @@
-package arrays;
+package com.ns.beginnerjavaapps.arrays;
 
 import java.util.Arrays;
 import java.util.Random;
