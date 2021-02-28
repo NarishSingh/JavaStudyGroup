@@ -15,15 +15,15 @@ public class objsMain {
     public static void main(String[] args) {
         //1. lets demonstrate that you don't need an object to print a static field
         //we will access this field with dot notation -> syntax = ClassName.StaticFieldName
-        System.out.println("All people are of the species" + Person.SPECIES);
+        System.out.println("All people are of the species " + Person.SPECIES);
 
         //2. Lets make a Person with the default constructor, set its fields, and print their info
-        Person p1 = new Person();
-        p1.setFullName("John Doe");
+        Person p1 = new Person(); //declare the obj
+        p1.setFullName("John Doe"); //set its fields
         p1.setAge(53);
 
         //use the Getters to print
-        System.out.println("Person 1's name: " + p1.getFullName());
+        System.out.println("Person 1's name: " + p1.getFullName()); //access the fields
         System.out.println("Person 1's age: " + p1.getAge());
 
         //or we can be lazy
@@ -53,6 +53,7 @@ public class objsMain {
         System.out.println(p3.SPECIES);
 
         //5. Greet
+        //member method notations - objName.memberMethodName(param, param)
         System.out.println(p1.greeting());
         System.out.println(p2.greeting());
         System.out.println(p3.greeting());

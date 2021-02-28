@@ -30,10 +30,14 @@ public class array {
 //        intArr2[3] = x;
         System.out.println(Arrays.toString(secondIntArr));
 
-        String[] secondStringArr = new String[2]; // [null, null] com.ns.beginnerjavaapps.arrays of reference types like string will initialize to null
+        String[] secondStringArr = new String[2]; // [null, null] arrays of reference types (like string) will initialize to null
         secondStringArr[0] = firstName;
         secondStringArr[1] = lastName;
         System.out.println(Arrays.toString(secondStringArr));
+
+        for (int i = 0; i < intArr.length; i++) {
+            System.out.println(intArr[i]);
+        }
     }
 
 }
