@@ -8,7 +8,7 @@ Behaviors -> methods
 In this program, we will create a Person class, which defines what a Person obj will look and behave like
 Read thru the "Person" class files first, then come back here
  */
-package com.ns.beginnerjavaapps.objectsClasses;
+package com.ns.beginnerjavaapps.objectsClasses.Persons;
 
 public class objsMain {
 

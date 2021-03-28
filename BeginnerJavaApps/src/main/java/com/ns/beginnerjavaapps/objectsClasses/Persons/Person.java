@@ -1,4 +1,4 @@
-package com.ns.beginnerjavaapps.objectsClasses;
+package com.ns.beginnerjavaapps.objectsClasses.Persons;
 
 import java.util.Objects;
 
