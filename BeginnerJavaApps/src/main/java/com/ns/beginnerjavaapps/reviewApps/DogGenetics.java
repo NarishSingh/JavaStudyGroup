@@ -5,6 +5,11 @@ import java.util.Scanner;
 
 public class DogGenetics {
 
+    /**
+     * Calculate 5 random numbers for dog genetics report
+     *
+     * @return {int[]} arr of 5 random integers, which sum to 100
+     */
     public static int[] calculateDna() {
         int[] genetics = new int[5];
         Random rng = new Random();
@@ -26,12 +31,12 @@ public class DogGenetics {
         System.out.print("What is your dog's name?: ");
         dogName = input.nextLine();
 
-        System.out.println("Well then, I have this highly reliable report on" + dogName + "prestigious background right here.");
+        System.out.println("Well then, I have this highly reliable report on " + dogName + "'s prestigious background right here.");
         System.out.println(dogName + " is: ");
 
         //rng will create the percentages
         int[] myDogGenetics = calculateDna();
-        String[] dogBreeds = new String[]{"Corgi", "Husky", "Pug", "Pitbull", "Rothweiler"};
+        String[] dogBreeds = new String[]{"Corgi", "Husky", "Pug", "Pitbull", "Rottweiler"};
         for (int i = 0; i < myDogGenetics.length; i++) {
             System.out.println(myDogGenetics[i] + "% " + dogBreeds[i]);
         }
